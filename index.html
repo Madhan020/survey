@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        div{
+            margin:0 auto;
+            margin-top: 10%;
+            width: 40%;
+            border: 2px solid black;
+            padding: 1%;
+        }
+        h1{text-align: center;color: orange;}
+        label{
+            width:100%
+        }
+        button{
+            width: 100%;
+            background-color: orange;
+            max-height: fit-content;
+        }
+        span{
+    color:gray;
+}
+.checked{
+    color:orange;
+}
+.ratingdiv{margin: 0;
+border: none;}
+        
+    </style>
+</head>
+<body>
+    <div>
+         <h1>ACQUIOS</h1>
+         <form>
+            <label >First Name</label>
+            <input type="text" required>
+            <label >Last Name</label>
+            <input type="text" required><br><br>
+            <label>Email Address</label>
+            <input required type="email" style="width: 52%;">
+            <div class="ratingdiv">
+                <p>How was Your Overall Experience?<sup>*</sup></p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>    
+            </div>
+            <p>Was our representativ?[click all that apply] </p>
+           
+                <input type="checkbox">Professional?<br>
+                <input type="checkbox">Good?<br>
+                <input type="checkbox">Friendly?<br>
+                <input type="checkbox">Efficient?<br>
+                <input type="checkbox">Patient?<br>
+                <input type="checkbox">Knowledgeable?<br>
+                <input type="checkbox">Clear and direct?<br>
+                <button type="submit">Submit Feedback</button>
+            
+         </form>
+    </div>
+</body>
+</html>
